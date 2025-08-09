@@ -1,0 +1,56 @@
+.button, .button-cancelar, .button-enviar {
+  background-color: blue;
+  padding: 1, 2rem 1.4rem;
+  border-radius: 4px;
+  color: red;
+}
+
+.button-enviar {
+  background-color: white;
+}
+
+.button-cancelar {
+  background-color: white;
+}
+
+h1 {
+  color: rgb(43, 58, 122);
+  font-size: 40px;
+  text-align: center;
+}
+
+.nuestros-servicios {
+  color: rgb(28, 47, 141);
+  text-decoration: underline;
+}
+
+.servicios {
+  color: rgb(28, 47, 141);
+}
+
+.imagen-catalogo {
+  width: 400px;
+}
+
+.navbar ul li a:visited {
+  color: black;
+}
+
+.navbar ul li a:hover {
+  color: rgb(28, 47, 141);
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: #e4e2e2;
+}
+
+header {
+  background-color: rgb(28, 47, 141);
+}
+
+/*# sourceMappingURL=style.css.map */

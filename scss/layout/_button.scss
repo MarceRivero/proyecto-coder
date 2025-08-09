@@ -1,0 +1,19 @@
+.button{
+    background-color: blue;
+    padding: 1,2rem 1.4rem;
+    border-radius: 4px;
+    color: red;
+
+
+}
+
+
+.button-enviar{
+    @extend .button;
+    background-color: white;
+}
+
+.button-cancelar{
+    @extend .button;
+    background-color: white;
+}
