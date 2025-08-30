@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=header, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reparamos tus maquinas! Venta de productos">
+    <meta name="keywords" content="Maquina, reparacion, venta">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <title>Bosh</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Sitio Bosch - Venta y reparación de maquinas</title>
 </head>
 
 <body>
     <header>
         <img src="https://boschherramientasargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/4c4442cb-17aa-43f1-919e-fbc557da78ca___37b08346da3b4297d1c0968cd7735096.svg"
-            class="d-block mx-auto" alt="Descripción">
+            class="logo-principal d-block mx-auto" alt="Logo">
         <!-- MENU DE LA PAGINA -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="header navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,13 +45,14 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="btn btn-outline text-white border-white" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
     <main>
+        <h1>Venta y Reparacion de Maquinas</h1>
         <section>
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
@@ -117,30 +118,70 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer class="bg-light text-muted mt-5 py-4">
-        <div class="container">
-            <div class="container text-center">
-                <h5 class="text-uppercase fw-bold mb-0">Atención al Cliente</h5>
+        <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Nuestros Clientes</h2>
+            <div class="row justify-content-center">
+            <div class="col-6 col-sm-4 col-md-3 clientes">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1280px-Coca-Cola_logo.svg.png" alt="Coca-Cola" width="300">
             </div>
-            <h6 class="text-secondary mb-3">Horario de Atención</h6>
-            <ul class="list-unstyled">
-                <li>Días: Lunes a Sábado</li>
-                <li>Horarios: 8:00 am a 5:00 pm</li>
-                <li>Email: <a href="mailto:Luisalcedo767@gmail.com"
-                        class="text-decoration-none text-muted">Luisalcedo767@gmail.com</a></li>
-                <li>Teléfono: <a href="tel:1121842182" class="text-decoration-none text-muted">1121842182</a></li>
-            </ul>
+            <div class="col-6 col-sm-4 col-md-3 clientes">
+                <img src="https://www.logo.wine/a/logo/Siemens/Siemens-Logo.wine.svg" alt="Siemens">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 clientes">
+                <img src="https://vectorseek.com/wp-content/uploads/2023/11/Volkswagen-New-Logo-Vector.svg-.png" alt="Volkswagen">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 clientes">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/019/136/319/small_2x/amazon-logo-amazon-icon-free-free-vector.jpg" alt="Amazon">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 clientes">
+                <img src="https://www.producteca.com/wp-content/uploads/2019/10/logo-fravega.png" alt="Fravega">
+            </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-white">Bosch Reparaciones</h5>
+                    <p>Venta y reparación de herramientas eléctricas con garantía y asesoramiento personalizado.</p>
+                    <p>📍 Av. Siempre Viva 1234, Caseros, Buenos Aires</p>
+                    <p>📞 +54 9 11 1234 5678</p>
+                    <p>✉️ contacto@bosch.com</p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-white">Navegación</h5>
+                    <ul class="list-unstyled">
+                    <li><a href="#" class="text-light text-decoration-none">Inicio</a></li>
+                    <li><a href="./pages/historia.html" class="text-light text-decoration-none">Historia</a></li>
+                    <li><a href="./pages/catalogo.html" class="text-light text-decoration-none">Catálogo</a></li>
+                    <li><a href="./pages/reparaciones.html" class="text-light text-decoration-none">Reparaciones</a></li>
+                    <li><a href="./pages/contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="text-white">Atención al Cliente</h5>
+                <p>Lunes a Viernes: 9:00 - 18:00</p>
+                <p>Sábados: 9:00 - 13:00</p>
+                <div class="mt-3">
+                <a href="#" class="me-2"><i class="bi bi-facebook text-light fs-5"></i></a>
+                <a href="#"><i class="bi bi-instagram text-light fs-5"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="text-center mt-4 text-white small">
+            © 2025 Bosch Reparaciones. Todos los derechos reservados.
+            </div>
+        </div>
+        <div class="whatsapp-contact">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/500px-WhatsApp_icon.png" alt="Contacto Whatsapp"/>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
-        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
         crossorigin="anonymous"></script>
 </body>
 

@@ -1,12 +1,13 @@
 .button, .button-cancelar, .button-enviar {
-  background-color: blue;
+  background-color: white;
   padding: 1, 2rem 1.4rem;
   border-radius: 4px;
-  color: red;
+  color: rgb(28, 47, 141);
 }
 
 .button-enviar {
   background-color: white;
+  margin-right: 10px;
 }
 
 .button-cancelar {
@@ -17,40 +18,113 @@ h1 {
   color: rgb(43, 58, 122);
   font-size: 40px;
   text-align: center;
+  padding: 40px 0;
 }
 
-.nuestros-servicios {
-  color: rgb(28, 47, 141);
-  text-decoration: underline;
+.logo-principal {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 576px) {
+  .logo-principal {
+    max-width: 180px;
+  }
 }
 
-.servicios {
-  color: rgb(28, 47, 141);
+.navbar-toggler {
+  color: white;
+  background-color: white;
 }
 
 .imagen-catalogo {
   width: 400px;
 }
 
+.header {
+  background-color: rgb(28, 47, 141) !important;
+  color: white;
+}
+
 .navbar ul li a:visited {
-  color: black;
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
 }
 
 .navbar ul li a:hover {
-  color: rgb(28, 47, 141);
+  color: white;
 }
 
 .navbar ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 body {
-  background-color: #e4e2e2;
+  background-color: white;
 }
 
 header {
-  background-color: rgb(28, 47, 141);
+  background-color: white;
+  padding: 40px 0px;
+}
+
+header img {
+  padding-bottom: 40px;
+}
+
+.footer {
+  background-color: rgb(28, 47, 141) !important;
+  color: white;
+}
+.footer h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.footer p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.clientes {
+  display: inline-block;
+  margin: 1rem;
+  transition: transform 0.3s ease;
+}
+.clientes img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.clientes img:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp-contact {
+  display: flex;
+  position: fixed;
+  bottom: 150px;
+  right: 50px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.card {
+  background: linear-gradient(90deg, rgba(3, 0, 189, 0.329), rgb(215, 215, 235));
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
